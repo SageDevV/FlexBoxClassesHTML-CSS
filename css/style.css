@@ -1,0 +1,122 @@
+body {
+    margin: 0 auto;
+    position: relative;
+    left: 25%;
+    top: 30px;
+}
+
+.container {
+    border: solid 2px blueviolet;
+    padding: 4px;
+    max-width: 600px;
+    height: 600px;
+}
+
+.items {
+    background-color: rgb(186, 112, 255);
+    border: solid 2px black;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.quebra {
+    flex-wrap: wrap;
+}
+
+.quebra-reversa {
+    flex-wrap: wrap-reverse;
+}
+
+.fluxo-horizontal-quebra {
+    flex-flow: row wrap;
+}
+
+.fluxo-horizontal-sem-quebra {
+    flex-flow: row nowrap;
+}
+
+.centralizar-eixo-principal {
+    justify-content: center;
+}
+
+.centralizar-eixo-principal-espaço {
+    justify-content: space-between;
+}
+
+.centralizar-eixo-principal-espaço-sem-colidir {
+    justify-content: space-around;
+}
+
+.alinhamento-de-items-center {
+    align-items: center;
+}
+
+.flex-tam-0 {
+    flex-grow: 0;
+}
+
+.flex-tam-1 {
+    flex-grow: 1;
+}
+
+.flex-tam-2 {
+    flex-grow: 2;
+}
+
+.basea {
+    flex-basis: auto;
+}
+
+.base0 {
+    flex-basis: 0;
+}
+
+.base1 {
+    flex-basis: 1;
+}
+
+.ordem0 {
+    order: 0;
+}
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.reduzir0{
+    flex-shrink: 0;
+}
+
+.reduzir1{
+    flex-shrink: 1;
+}
+
+.reduzir2{
+    flex-shrink: 2;
+}
+
+.start-column{
+    align-self: flex-start;
+}
+
+.fim-column{
+    align-self: flex-end;
+}
+
